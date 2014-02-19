@@ -1,0 +1,52 @@
+/*
+ *
+ * Default CSS for UberAccordion
+ * Skin Me s'il vous plait
+ *
+ */
+
+.uberAccordion {
+   padding: 0;
+}
+
+.uberAccordion > li {
+    list-style: none;
+    margin: 0;
+}
+
+.uberAccordion > li > h1 {
+    background-color: #e3e3e3;
+    margin: 0;
+    font-size: 16px;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.uberAccordion > li > div {
+    background-color: #aaa;
+    padding: 15px;
+}
+
+
+/* Default CSS for sub-accordion */
+
+.uberAccordion .uberAccordion > li > h1 {
+    font-size: 12px;
+    padding: 5px;
+}
+
+.uberAccordion .uberAccordion > li > div {
+   background-color: #666666;
+   color: #FFF;
+}
+
+
+/* Default CSS for vertical orientation */
+
+.uberAccordion.accordion-vertical {
+    height: 300px;
+}
+
+.uberAccordion .uberAccordion.accordion-vertical {
+    height: 260px;
+}
