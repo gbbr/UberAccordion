@@ -15,21 +15,21 @@ Below is a minimal example of setting up an accordion.
 <div class="accordionContainer">
   <ul>
     <li>
-      <h1 class="title">Slide One</h1>
+      <div class="title">Slide One</div>
       <div class="content">
         Content for slide one is rendered from here.
       </div>
     </li>
     
     <li>
-      <h1 class="title">Slide Two</h1>
+      <div class="title">Slide Two</div>
       <div class="content">
         Content for slide two is rendered from here.
       </div>
     </li>
     
     <li>
-      <h1 class="title">Slide Three</h1>
+      <div class="title">Slide Three</div>
       <div class="content">
         Content for slide three is rendered from here.
       </div>
